@@ -40,7 +40,7 @@ $('html').keydown(function (e) {
     $("ul").append(`<li class="message"><b>user</b><br/>${message}</li>`);
     scrollToBottom()
   })
-})
+
 
 socket.on('user-disconnected', userId => {
   if (peers[userId]) peers[userId].close()
@@ -99,9 +99,9 @@ const playStop = ()=>{
    let enabled = myVideoStream.getVideoTracks()[0].enabled 
    if(enabled){
     myVideoStream.getVideoTracks()[0].enabled = false
-    setPlayVideo()
-   } else {
     setStopVideo()
+   } else {
+    setPlayVideo()
     myVideoStream.getVideoTracks()[0].enabled = true
    }
 }
@@ -124,7 +124,7 @@ const setMuteButton = () => {
 
   const setStopVideo = ()=>{
     const html = `
-    <i class="fas fa-video></i>
+    <i class="fa-solid fa-video"></i>
     <span>Stop Video</span>`
 
     document.querySelector('.main__video_button').innerHTML = html
@@ -132,7 +132,7 @@ const setMuteButton = () => {
 
   const setPlayVideo = ()=>{
     const html = `
-    <i class="stop fas fa-video-slash"></i>
+    <i class="fa-solid fa-video-slash"></i>
     <span>Play Video</span>`
 
     document.querySelector('.main__video_button').innerHTML = html

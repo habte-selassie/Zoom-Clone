@@ -11,6 +11,10 @@ const peerServer = ExpressPeerServer(server,{
 
 const { v4: uuidV4 } = require('uuid')
 
+
+const PORT = 3030
+
+
 app.use(cors())
 
 app.use('/peerjs',peerServer)
@@ -39,5 +43,7 @@ io.on('connection',socket=>{
     })
 })
 
-server.lisetn(process.env||3030)
+server.listen({port:PORT},()=>{
+    console.log(`server listening on port ${PORT}`);
+})
 
