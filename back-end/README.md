@@ -22,7 +22,7 @@ Finally, start the server by running the following command:
 sql
 Copy code
 npm start
-The application should now be accessible at http://localhost:3000.
+The application should now be accessible at http://localhost:3030.
 
 # Usage
 To create a new meeting, simply click on the "Create Meeting" button on the home page. You'll be redirected to a unique URL that you can share with other users to join the meeting.
@@ -35,13 +35,13 @@ This application was built using the following technologies:
 Express
 Node.js
 CSS
-EJS
+Ejs
 Socket.IO
 WebRTC
 Contributing
 Contributions to this project are welcome. If you would like to contribute, please fork the repository and submit a pull request.
 
 # Credits
-This project was inspired by Zoom and built with the help of online tutorials and resources. Special thanks to John Smith for his contributions to the project.
+This project was inspired by Habte Selassie and built with the help of online tutorials and resources.
 
 Feel free to modify this README.md file as needed to better reflect your project. Good luck!
