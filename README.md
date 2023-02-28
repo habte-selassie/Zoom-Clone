@@ -36,7 +36,7 @@ This application was built using the following technologies:
 Express
 Node.js
 CSS
-Ejs
+EJS
 Socket.IO
 WebRTC
 Contributing
@@ -46,3 +46,14 @@ Contributions to this project are welcome. If you would like to contribute, plea
 This project was inspired by Habte Selassie and built with the help of online tutorials and resources.
 
 Feel free to modify this README.md file as needed to better reflect your project. Good luck!
+# Future Plans
+"This project is not fully finished yet, and there are a few functionalities that I would like to add in the future. Firstly, I plan to implement the ability for users to leave and join meetings seamlessly. This will involve creating an intuitive user interface that allows participants to easily exit and enter the meeting room without disrupting the session.
+
+Another feature that I would like to add is the ability to show all participants in the platform. This could be done by listing all participants in the meeting, as well as providing additional information about each user, such as their role or status within the meeting.
+
+Finally, I plan to incorporate some fantastic security features into the platform. This will involve implementing advanced encryption protocols, as well as adding additional layers of authentication to ensure that only authorized users can access the meeting room. Overall, I am excited to continue developing this project and am looking forward to bringing these new functionalities to life."
+
+
+
+
+
