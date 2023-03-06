@@ -1,5 +1,5 @@
-# Zoom-Clone
-# Zoom Clone Project
+# Simple Zoom-Clone
+# Simple Zoom Clone Project
 This is a simple video conferencing application built using Express, Node.js, CSS, and EJS. The application allows users to create and join meetings, share screens, and record sessions.
 
 # Table of Contents
